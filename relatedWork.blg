@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: relatedWork.aux
+The style file: acm_adjusted.bst
+Database file #1: references.bib
+Warning--empty booktitle in Tanaka2012-ACO
+You've used 37 entries,
+            2276 wiz_defined-function locations,
+            771 strings with 12544 characters,
+and the built_in function-call counts, 14994 in all, are:
+= -- 1446
+> -- 769
+< -- 0
++ -- 318
+- -- 278
+* -- 1172
+:= -- 2313
+add.period$ -- 109
+call.type$ -- 37
+change.case$ -- 213
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 611
+empty$ -- 1116
+format.name$ -- 278
+if$ -- 3211
+int.to.chr$ -- 0
+int.to.str$ -- 37
+missing$ -- 35
+newline$ -- 186
+num.names$ -- 74
+pop$ -- 287
+preamble$ -- 1
+purify$ -- 213
+quote$ -- 0
+skip$ -- 480
+stack$ -- 0
+substring$ -- 840
+swap$ -- 243
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 146
+warning$ -- 1
+while$ -- 138
+width$ -- 39
+write$ -- 365
+(There was 1 warning)
