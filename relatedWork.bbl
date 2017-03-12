@@ -61,6 +61,12 @@
 \newblock Slackline training for balance and strength promotion.
 \newblock {\em Int. J. Sports Med. 31}, 10 (Oct. 2010), pp.~717--723.
 
+\bibitem{Hmlinen2004-ai}
+{\sc Hämäläinen, Perttu}.
+\newblock Interactive video mirrors for sports training.
+\newblock In {\em Proceedings of the third Nordic conference on Human-computer
+  interaction - {NordiCHI} '04\/} (2004).
+
 \bibitem{Hodges2002-gb}
 {\sc Hodges, Nicola~J and Franks, Ian~M}.
 \newblock Modelling coaching practice: the role of instruction and
@@ -73,12 +79,6 @@
 \newblock Body-controlled trampoline training games based on computer vision.
 \newblock In {\em {CHI} '13 Extended Abstracts on Human Factors in Computing
   Systems on - {CHI} {EA} '13\/} (2013).
-
-\bibitem{Hmlinen2004-ai}
-{\sc Hämäläinen, Perttu}.
-\newblock Interactive video mirrors for sports training.
-\newblock In {\em Proceedings of the third Nordic conference on Human-computer
-  interaction - {NordiCHI} '04\/} (2004).
 
 \bibitem{Johnson1998-hb}
 {\sc Johnson, D~A; Rose, F~D; Rushton, S; Pentland, B and Attree, E~A}.
@@ -229,6 +229,12 @@
   In A Game Environment (Code Red Triage).
 \newblock In {\em Proceedings of the 28th Annual European Conference on
   Cognitive Ergonomics - {ECCE} '10\/} (2010).
+
+\bibitem{Wiki2017-ATOL}
+{\sc Wikipedia}.
+\newblock Anatomical terms of location --- Wikipedia{,} The Free Encyclopedia,
+  2017.
+\newblock [Online; accessed 12-March-2017].
 
 \bibitem{Winstein1990-to}
 {\sc Winstein, Carolee~J and Schmidt, Richard~A}.

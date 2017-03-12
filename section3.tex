@@ -6,9 +6,17 @@ Cognitive load plays an important role if skill acquisition is a major factor. I
 
 As a baseline Paas et al. \cite{Paas2003-xt} describes that the acquisition of new skills is in conjunction with cognitive load. By adjusting this the learning effect can be easened or hardened. Three types of cognitive loads exists that handle the working memory of a person regarding the learning process. Intrinsic load is the inherent complexity that is caused by the topic itself. It is also important in which manner information is given to the user. If this is unnecessary, repetitive or interferes him it is called an extraneous cognitive load and increases the burden of the user. The last type is germane cognitive load, which describes also how information is given to the user but by supporting the him in that way. This is brought by activating and automating already existing schemas or generating new schemas in the working memory to enhance a learning process. Regarding this several application have been evaluated that are also relevant to the slacklining supporting system.
 
-Van der Spek \cite{Van_der_Spek2010-fe} evaluated how to deal with the right complexity in serious games. He describes in his mental model construction \textbf{(Figure 4)} that interference can be avoided by information regulation and focus attention. Improving is encouraged by predictability and reflection of the tasks. The attention of the user should be focused to relevant material by regulating the information given to him. Since a serious game like approach should be developed this is an important reference for building an effective learning process to the user.
+Van der Spek \cite{Van_der_Spek2010-fe} evaluated how to deal with the right complexity in serious games. He describes in his mental model construction (Figure \ref{fig:mentalModelConstruction}) that interference can be avoided by information regulation and focus attention. Improving is encouraged by predictability and reflection of the tasks. The attention of the user should be focused to relevant material by regulating the information given to him. Since a serious game like approach should be developed this is an important reference for building an effective learning process to the user.
 
-\textbf{1 PICTURE} \cite{Van_der_Spek2010-fe}
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.8\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/mentalModelConstruction}
+		\caption{Guideline for enhancing the cognitive load \cite{Van_der_Spek2010-fe}}
+		\label{fig:mentalModelConstruction}
+	\end{minipage}
+\end{figure}
 
 Pisan et al. \cite{Pisan2013-sf} evaluates the user risk of falling with cognitive loading exercises. They executed two stroop tests, where the participant had to name the correct color of the word. High and low cognitive load can be measured by differentiating the meaning and color of a word. In the next challenge she has to answer different maths problems provided by the system. The results show that the reaction time due to cognitive load is much larger with users that have a higher risk of falling than for users that have a lower risk. This could be explainable due to the fact that user with higher falling risk are not that good in terms of switching the cognitive focus from the balancing action into other actions. Training on a slackline provides cognitive load to the user because of several simultaneously things she has to be aware of. Hence feedback given by the system on how to behave in a situation should be provided in an appropriate manner to support and restrict the cognitive capability.
 
@@ -47,17 +55,62 @@ A well defined interaction mechanism and a good looking environment can help to 
 
 \subsection{User interface}
 
-Important feedback information during the exercise should be placed surrounding the focus point in the peripheral view of the user. Directing the user for correcting her movement can be done in several ways. Basic information about the execution should be given prior to the user for exercise preparation. Surrounding objects can be displayed as arrows, flashing notifications or weighting scale like seen by Garrido Navarro et al. \cite{Garrido2013-zs} in \textbf{Figure 5 and 6}. Additional informations like current exercise and the state can be displayed outside of the focus space. But they should be designed to not distract the user. If they do so it should be able to just show the feedback visualisations. A feedback summary after the execution can give an useful resume about the exercise as an reflection \textbf{Figure 6}.
+Important feedback information during the exercise should be placed surrounding the focus point in the peripheral view of the user. Directing the user for correcting her movement can be done in several ways. Basic information about the execution should be given prior to the user for exercise preparation. Surrounding objects can be displayed as arrows, flashing notifications or weighting scale like seen by Garrido Navarro et al. \cite{Garrido2013-zs} in Figure \ref{fig:informationUISurroundingObjects}. Additional informations like current exercise and the state can be displayed outside of the focus space. But they should be designed to not distract the user. If they do so it should be able to just show the feedback visualisations. A feedback summary after the execution can give an useful resume about the exercise as an reflection like in Figure \ref{fig:informationUIFeedbackSummary}.
 
-\textbf{2 PICTURES}
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/informationUISurroundingObjects}
+		\caption{Surrounding objects in the UI \cite{Garrido2013-zs}}
+		\label{fig:informationUISurroundingObjects}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/informationUIFeedbackSummary}
+		\caption{Completed exercise feedback summary \cite{Garrido2013-zs}}
+		\label{fig:informationUIFeedbackSummary}
+	\end{minipage}
+\end{figure}
 
-Another method is to show the user mesh or an avatar that demonstrates the correct performance of the current exercises \textbf{(Figure 7 and 8)}. Holsti et al. \cite{Holsti2013-kn} implemented such a user integration and in user testing they endorse to see themself performing in real time.
+Another method is to show the user itself or an avatar that demonstrates the correct performance of the current exercises like in Figure \ref{fig:avatar3DModel} and \ref{fig:avatarUser}. Holsti et al. \cite{Holsti2013-kn} implemented such a user integration and in user testing they endorse to see themself performing in real time.
 
-\textbf{2 PICTURES} \cite{Estepa2016-oj} \cite{Holsti2013-kn}
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/avatar3DModel}
+		\caption{3D Model as avatar \cite{Estepa2016-oj}}
+		\label{fig:avatar3DModel}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/avatarUser}
+		\caption{Rail-time user representation \cite{Holsti2013-kn}}
+		\label{fig:avatarUser}
+	\end{minipage}
+\end{figure}
 
-The task about the execution has to be clarified. Chang et al.\cite{Chang2012-hz} provides real time feedback on the performance quality due to a visualised path. If the performance is correct the path will turn green. But if she moves outside the range the path turns red and an arrows guides him into the correct position.  Highlighting objects can help to complete an exercise successfully \textbf{(Figure 9, 10)}. If she performs something wrong during the performance e.g. in the slacklining case corresponding body parts could be highlighted.
+The task about the execution has to be clarified. Chang et al. \cite{Chang2012-hz} provides real time feedback on the performance quality due to a visualised path. If the performance is correct the path will turn green. But if she moves outside the range the path turns red and an arrows guides him into the correct position. Instructions and highlighting objects can help to complete an exercise successfully (Figure \ref{fig:gameInstruction} and \ref{fig:gameHighlighting}). If she performs something wrong during the performance e.g. in the slacklining case corresponding body parts could be highlighted.
 
-\textbf{2 PICTURES} \cite{Chang2012-hz}
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/gameInstruction}
+		\caption{Instruction to the game \cite{Chang2012-hz}}
+		\label{fig:gameInstruction}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/gameHighlighting}
+		\caption{Green indicator for correct performance \cite{Chang2012-hz}}
+		\label{fig:gameHighlighting}
+	\end{minipage}
+\end{figure}
 
 %Kann evtl nicht genutzt werden
 Displaying an avatar can be further implemented by a conjunction or overlapping with an instructor on the screen \textbf{(Figure 8)}. With this she can see wrong performance execution in real time. After the exercise she should be able to review her performance. At the same time the system has to be aware of not distracting the user too much during the performance. 

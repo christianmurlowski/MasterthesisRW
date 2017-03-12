@@ -16,21 +16,71 @@ The Microsoft Kinect is a static device that includes a RGB camera, depth camera
 
 \subsection{Accuracy of the Microsoft Kinect}
 
-In the field of balance training it is necessary to give appropriate feedback for the patient that reveals errors in the performance and support a proper execution. With this in mind user tracking should be good enough to fulfill this criteria. Since Microsoft Kinect is used as the tracking device the accuracy and precision should be assessed.
+In the field of balance training it is necessary to give appropriate feedback for the patient that reveals errors in the performance and support a proper execution. With this in mind user tracking should be good enough to fulfil this criteria. Since Microsoft Kinect is used as the tracking device the accuracy and precision should be assessed.
 
-Lim et al. \cite{Lim2015-pw} assessed the accuracy of the Kinect with a 3D motion capture system as a reference system. For further understanding please review \textbf{Figure 7 and 8} regarding planes, front, and side view of the human body. The participants had to execute balance training with complex aperiodic movements in the basal plane. Similar characterization of movements are provided by the Kinect in comparison to the 3D motion capture system. The correlation analysis showed that the Kinect and the 3D motion capture system are highly correlated for the flexion-extension in the medio-lateral axis (x) but not on the anterior-posterior-axis (y-axis) and the cranial-caudal-axis (z-axis) \textbf{(Fig. 7)}. This is because the Kinect determine joint locations based on the depth image data and the data input is limited to the depth camera view. Therefore recognition in the sagittal and transverse plane is not optimal \textbf{(Fig. 8)}. Also the primary goal of the Kinect is to measure the dynamic movements in the coronal (frontal) plane for gaming reasons. It is indeed an effective system to characterize changes in center of mass and movements in the frontal plane during balance training. But it would not be suitable in balance training that require in-depth analyses of joint motions, which is not needed with the slackline assistance.
+Lim et al. \cite{Lim2015-pw} assessed the accuracy of the Kinect with a 3D motion capture system as a reference system. For further understanding please review Figure \ref{fig:bodyPlanes} and \ref{fig:bodyDirectionalReferences} regarding planes, front, and side view of the human body. The participants had to execute balance training with complex aperiodic movements in the basal plane. Similar characterization of movements are provided by the Kinect in comparison to the 3D motion capture system. The correlation analysis showed that the Kinect and the 3D motion capture system are highly correlated for the flexion-extension in the medio-lateral axis (x) but not on the anterior-posterior-axis (y-axis) and the cranial-caudal-axis (z-axis) (Figure \ref{fig:bodyDirectionalReferences}). This is because the Kinect determine joint locations based on the depth image data and the data input is limited to the depth camera view. Therefore recognition in the sagittal and transverse plane is not optimal (Figure \ref{fig:bodyPlanes}). Also the primary goal of the Kinect is to measure the dynamic movements in the coronal (frontal) plane for gaming reasons. It is indeed an effective system to characterize changes in center of mass and movements in the frontal plane during balance training. But it would not be suitable in balance training that require in-depth analyses of joint motions, which is not needed with the slackline assistance.
 
-\textbf{2 PICTURES} \url{https://en.wikipedia.org/wiki/Anatomical_terms_of_location}
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.38\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/bodyPlanes}
+		\caption{Body Planes \cite{Wiki2017-ATOL}}
+		\label{fig:bodyPlanes}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.6\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/bodyDirectionalReferences}
+		\caption{Directional References \cite{Wiki2017-ATOL}}
+		\label{fig:bodyDirectionalReferences}
+	\end{minipage}
+\end{figure}
+
+% \url{https://en.wikipedia.org/wiki/Anatomical_terms_of_location}
 
 Chang et al. \cite{Chang2012-hz} focuses mainly on the tracking performance of the Microsoft Kinect as a rehabilitation device in comparison with a high fidelity motion capture system called OptiTrack. In their application the user has to move objects from one side of the screen to the other. Five correct and incorrect movements have been realised and both systems successfully identified them. In trajectory comparison the results of the hand and elbow by the Kinect are very close to the OptiTrack system. Tracking of the shoulder movements are moderate because it involves rotation that the device does not recognizes well. The timing performance comparison shows that the OptiTrack system is negligible faster than the Kinect.
 
-Woolford \cite{Woolford2015-ub} compared the accuracy and precision of the Kinect v2 with the Qualisys motion capture system for the usage in healthcare applications. He also describes that accuracy is the amount of how close a measured quantity to the actual value is. For the Kinect the skeleton tracking methods are accurate because the average joint position data is very close to the actual physical position. Precision hereby is the similarity of repeated measurements \cite{Woolford2015-ub}. With this in mind the joint position data is not always precise because the data spreads in its position of the frame. The results show that the Kinect V2 is accurate but imprecise for body parts whose center of mass cannot be easily identified like the shoulder. For smaller body parts as well as between two body parts such as elbow or wrist the accuracy and precision is very high. 
+Woolford \cite{Woolford2015-ub} compared the accuracy and precision of the Kinect v2 with the Qualisys motion capture system for the usage in healthcare applications. He describes that accuracy is the amount of how close a measured quantity to the actual value is. Precision is the similarity of repeated measurements (Figure \ref{fig:systemInaccurateImprecise}, \ref{fig:systemInaccuratePrecise}, \ref{fig:systemAccuratePrecise}, and \ref{fig:systemAccurateImprecise}). For example the Kinect skeleton tracking methods are accurate because the average joint position data is very close to the actual physical position. Regarding his definition of precision, the joint position data is not always precise because the data spreads in its position of the frame. The results show that the Kinect V2 is accurate but imprecise for body parts whose center of mass cannot be easily identified like the shoulder. For smaller body parts as well as between two body parts such as elbow or wrist the accuracy and precision is very high. 
+
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/systemInaccurateImprecise}
+		\caption{Inaccurate and imprecise system generates random-like measurements \cite{Woolford2015-ub}}
+		\label{fig:systemInaccurateImprecise}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/systemInaccuratePrecise}
+		\caption{Inaccurate but precise system, where measurements are close to each other but have systematic error \cite{Woolford2015-ub}}
+		\label{fig:systemInaccuratePrecise}
+	\end{minipage}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/systemAccuratePrecise}
+		\caption{Accurate and precise system generates measurements that are close to the real world \cite{Woolford2015-ub}}
+		\label{fig:systemAccuratePrecise}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.49\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/systemAccurateImprecise}
+		\caption{Accurate and suffice precise system generates measurements that are close to each other and are not systematically biased \cite{Woolford2015-ub}}
+		\label{fig:systemAccurateImprecise}
+	\end{minipage}
+\end{figure}
+
 
 \subsection{Implementation in balance training scenarios}
 
 Like already stated Chang et al. \cite{Chang2012-hz} not only assessed the accuracy of the Microsoft Kinect but also if it could fit as an alternative training device in rehabilitation training. The results show that it provides enough usable feedback to the therapists to be an appropriate device for medical uses. Woolford \cite{Woolford2015-ub} state that the Microsoft kinect is a useful device for monitoring such exercises. The set-up is relatively easy and the tracking is appropriate for exercises in a healthcare environment. Lim et al. \cite{Lim2015-pw} investigated the usage of Microsoft Kinect in the field of falling risk. They tracked characterizing movements and found that it is an useful device for balance training. Ustinova et al. \cite{Ustinova2014-ml} used the kinect to improve the postural control as well as coordination deficits from chronic traumatic brain injury patients. It resulted in improvements of postural stability, movement performance and motoric coordination. The participants were also very satisfied whereas normal exercises have been stated as boring. Pisan et al. \cite{Pisan2013-sf} used the device to investigate the prediction of the loss of balance for elderly users with a step training program. The user preferred doing exercises with the system and the tests matched also the expectation of the researcher. An integration in promoting the postural control for parkinson disease with 
-
-\textbf{1 PICTURE} \cite{Woolford2015-ub}
 
 Kinect games were elaborated by Pompeu et al. \cite{Pompeu2014-yl} \cite{Pompeu2015-vp}. The results affirm that the patients improve in balance purposes and motoric movements with this help.
 
