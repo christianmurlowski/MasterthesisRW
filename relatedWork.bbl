@@ -14,6 +14,11 @@
 \newblock In {\em Proceedings of the 6th International Conference on Pervasive
   Computing Technologies for Healthcare\/} (2012).
 
+\bibitem{MicrosoftHIG2014-mh}
+{\sc Corporation, Microsoft}.
+\newblock Kinect for Windows | Human Interace Guidelines v2.0, 2014.
+\newblock [Online; accessed 13-March-2017].
+
 \bibitem{Donath2013-kk}
 {\sc Donath, L; Roth, R; Rueegge, A; Groppa, M; Zahner, L and Faude, O}.
 \newblock Effects of slackline training on balance, jump performance \& muscle
@@ -61,6 +66,12 @@
 \newblock Slackline training for balance and strength promotion.
 \newblock {\em Int. J. Sports Med. 31}, 10 (Oct. 2010), pp.~717--723.
 
+\bibitem{Hmlinen2004-ai}
+{\sc Hämäläinen, Perttu}.
+\newblock Interactive video mirrors for sports training.
+\newblock In {\em Proceedings of the third Nordic conference on Human-computer
+  interaction - {NordiCHI} '04\/} (2004).
+
 \bibitem{Hodges2002-gb}
 {\sc Hodges, Nicola~J and Franks, Ian~M}.
 \newblock Modelling coaching practice: the role of instruction and
@@ -73,12 +84,6 @@
 \newblock Body-controlled trampoline training games based on computer vision.
 \newblock In {\em {CHI} '13 Extended Abstracts on Human Factors in Computing
   Systems on - {CHI} {EA} '13\/} (2013).
-
-\bibitem{Hmlinen2004-ai}
-{\sc Hämäläinen, Perttu}.
-\newblock Interactive video mirrors for sports training.
-\newblock In {\em Proceedings of the third Nordic conference on Human-computer
-  interaction - {NordiCHI} '04\/} (2004).
 
 \bibitem{Johnson1998-hb}
 {\sc Johnson, D~A; Rose, F~D; Rushton, S; Pentland, B and Attree, E~A}.
