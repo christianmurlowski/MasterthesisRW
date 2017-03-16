@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.27)  14 MAR 2017 09:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.27)  16 MAR 2017 22:10
 entering extended mode
 **relatedWork.tex
 (E:\Masterthesis\Thesis\MasterthesisRW\relatedWork.tex
@@ -734,6 +734,10 @@ Package caption Info: wrapfig package is loaded.
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count130
 \c@subtable=\count131
+)
+("E:\Programme\MiKTeX 2.9\tex\latex\nowidow\nowidow.sty"
+Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
+Package: nowidow 
 ))
 (E:\Masterthesis\Thesis\MasterthesisRW\relatedWork.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -816,7 +820,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ("E:\Programme\MiKTeX 2.9\tex\latex\microtype\mt-ptm.cfg"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-<uds.jpg, id=59, 222.8325pt x 218.8175pt>
+<uds.jpg, id=23, 222.8325pt x 218.8175pt>
 File: uds.jpg Graphic file (type jpg)
  <use uds.jpg>
 Package pdftex.def Info: uds.jpg used on input line 19.
@@ -875,7 +879,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 ("E:\Programme\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -883,7 +887,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ("E:\Programme\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 ("E:\Programme\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -900,14 +904,10 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ]
 (E:\Masterthesis\Thesis\MasterthesisRW\introduction.tex) [2]
 (E:\Masterthesis\Thesis\MasterthesisRW\section1.tex
-Overfull \hbox (3.836pt too wide) in paragraph at lines 1--1
-|[]\T1/ppl/b/n/14.4 Slackline spe-cific train-ing and ef-fects to the hu-man bo
-dy| 
- []
-
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
-<Pictures/slacklineHelpSticks.jpg, id=105, 117.1946pt x 153.54927pt>
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
+
+<Pictures/slacklineHelpSticks.jpg, id=60, 117.1946pt x 153.54927pt>
 File: Pictures/slacklineHelpSticks.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineHelpSticks.jpg>
@@ -915,14 +915,14 @@ Package pdftex.def Info: Pictures/slacklineHelpSticks.jpg used on input line 14
 .
 (pdftex.def)             Requested size: 96.02805pt x 125.82217pt.
 
-<Pictures/slacklineHelpBar.jpg, id=106, 206.85443pt x 167.51816pt>
+<Pictures/slacklineHelpBar.jpg, id=61, 206.85443pt x 167.51816pt>
 File: Pictures/slacklineHelpBar.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineHelpBar.jpg>
 Package pdftex.def Info: Pictures/slacklineHelpBar.jpg used on input line 21.
 (pdftex.def)             Requested size: 145.96451pt x 118.21278pt.
 
-<Pictures/slacklineHelpHuman.jpg, id=107, 147.99318pt x 147.98143pt>
+<Pictures/slacklineHelpHuman.jpg, id=62, 147.99318pt x 147.98143pt>
 File: Pictures/slacklineHelpHuman.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineHelpHuman.jpg>
@@ -932,7 +932,7 @@ Package pdftex.def Info: Pictures/slacklineHelpHuman.jpg used on input line 28.
  [3 <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/slacklineHelpSticks.jpg> <E
 :/Masterthesis/Thesis/MasterthesisRW/Pictures/slacklineHelpBar.jpg> <E:/Mastert
 hesis/Thesis/MasterthesisRW/Pictures/slacklineHelpHuman.jpg>]
-<Pictures/slacklineBasicStart.jpg, id=121, 124.96254pt x 136.20917pt>
+<Pictures/slacklineBasicStart.jpg, id=77, 124.96254pt x 136.20917pt>
 File: Pictures/slacklineBasicStart.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineBasicStart.jpg>
@@ -940,7 +940,7 @@ Package pdftex.def Info: Pictures/slacklineBasicStart.jpg used on input line 43
 .
 (pdftex.def)             Requested size: 115.23482pt x 125.60698pt.
 
-<Pictures/slacklineBasicOneFeet.jpg, id=122, 143.39285pt x 235.73785pt>
+<Pictures/slacklineBasicOneFeet.jpg, id=78, 143.39285pt x 235.73785pt>
 File: Pictures/slacklineBasicOneFeet.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineBasicOneFeet.jpg>
@@ -948,7 +948,7 @@ Package pdftex.def Info: Pictures/slacklineBasicOneFeet.jpg used on input line
 50.
 (pdftex.def)             Requested size: 76.82126pt x 126.29295pt.
 
-<Pictures/slacklineBasicBothFeet.jpg, id=123, 187.71428pt x 188.09135pt>
+<Pictures/slacklineBasicBothFeet.jpg, id=79, 187.71428pt x 188.09135pt>
 File: Pictures/slacklineBasicBothFeet.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineBasicBothFeet.jpg>
@@ -956,23 +956,23 @@ Package pdftex.def Info: Pictures/slacklineBasicBothFeet.jpg used on input line
  57.
 (pdftex.def)             Requested size: 126.75772pt x 127.01357pt.
 
-<Pictures/slacklineAdvancedCrossoverStart.jpg, id=135, 100.90846pt x 117.37587p
-t>
+<Pictures/slacklineAdvancedCrossoverStart.jpg, id=91, 100.90846pt x 117.37587pt
+>
 File: Pictures/slacklineAdvancedCrossoverStart.jpg Graphic file (type jpg)
  <use Pictures/slacklineAdvancedCrossoverStart.jpg>
 Package pdftex.def Info: Pictures/slacklineAdvancedCrossoverStart.jpg used on i
 nput line 71.
 (pdftex.def)             Requested size: 107.55093pt x 125.10376pt.
 
-<Pictures/slacklineAdvancedHandsBehindBack.jpg, id=136, 88.49388pt x 105.01274p
-t>
+<Pictures/slacklineAdvancedHandsBehindBack.jpg, id=92, 88.49388pt x 105.01274pt
+>
 File: Pictures/slacklineAdvancedHandsBehindBack.jpg Graphic file (type jpg)
  <use Pictures/slacklineAdvancedHandsBehindBack.jpg>
 Package pdftex.def Info: Pictures/slacklineAdvancedHandsBehindBack.jpg used on 
 input line 78.
 (pdftex.def)             Requested size: 103.71063pt x 123.07109pt.
 
-<Pictures/slacklineAdvancedDropknee.jpg, id=137, 124.96254pt x 94.05574pt>
+<Pictures/slacklineAdvancedDropknee.jpg, id=93, 124.96254pt x 94.05574pt>
 File: Pictures/slacklineAdvancedDropknee.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineAdvancedDropknee.jpg>
@@ -987,14 +987,14 @@ rthesis/Thesis/MasterthesisRW/Pictures/slacklineAdvancedCrossoverStart.jpg> <E:
 pg> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/slacklineAdvancedDropknee.j
 pg>] [5]) [6]
 (E:\Masterthesis\Thesis\MasterthesisRW\section2.tex [7]
-<Pictures/bodyPlanes.jpg, id=198, 301.125pt x 362.35374pt>
+<Pictures/bodyPlanes.jpg, id=155, 301.125pt x 362.35374pt>
 File: Pictures/bodyPlanes.jpg Graphic file (type jpg)
 
 <use Pictures/bodyPlanes.jpg>
 Package pdftex.def Info: Pictures/bodyPlanes.jpg used on input line 28.
 (pdftex.def)             Requested size: 145.96451pt x 175.64735pt.
 
-<Pictures/bodyDirectionalReferences.jpg, id=201, 1455.4375pt x 1135.24126pt>
+<Pictures/bodyDirectionalReferences.jpg, id=156, 1455.4375pt x 1135.24126pt>
 File: Pictures/bodyDirectionalReferences.jpg Graphic file (type jpg)
 
 <use Pictures/bodyDirectionalReferences.jpg>
@@ -1002,45 +1002,49 @@ Package pdftex.def Info: Pictures/bodyDirectionalReferences.jpg used on input l
 ine 35.
 (pdftex.def)             Requested size: 230.46965pt x 179.75417pt.
  [8]
-<Pictures/systemInaccurateImprecise.jpg, id=219, 243.43579pt x 118.60579pt>
+<Pictures/systemInaccurateImprecise.jpg, id=172, 243.43579pt x 118.60579pt>
 File: Pictures/systemInaccurateImprecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemInaccurateImprecise.jpg>
 Package pdftex.def Info: Pictures/systemInaccurateImprecise.jpg used on input l
-ine 49.
+ine 51.
 (pdftex.def)             Requested size: 188.21709pt x 91.70677pt.
 
-<Pictures/systemInaccuratePrecise.jpg, id=222, 233.31pt x 113.52pt>
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/ppl/m/n/8 (a) |In-ac-cu-rate and im-pre-cise sys-tem gen-er-ates
+ []
+
+<Pictures/systemInaccuratePrecise.jpg, id=173, 233.31pt x 113.52pt>
 File: Pictures/systemInaccuratePrecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemInaccuratePrecise.jpg>
 Package pdftex.def Info: Pictures/systemInaccuratePrecise.jpg used on input lin
-e 56.
+e 58.
 (pdftex.def)             Requested size: 188.21709pt x 91.58347pt.
 
-<Pictures/systemAccuratePrecise.jpg, id=225, 243.309pt x 118.38515pt>
+<Pictures/systemAccuratePrecise.jpg, id=174, 243.309pt x 118.38515pt>
 File: Pictures/systemAccuratePrecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemAccuratePrecise.jpg>
 Package pdftex.def Info: Pictures/systemAccuratePrecise.jpg used on input line 
-66.
+65.
 (pdftex.def)             Requested size: 188.21709pt x 91.58315pt.
 
-<Pictures/systemAccurateImprecise.jpg, id=228, 233.31pt x 113.52pt>
+<Pictures/systemAccurateImprecise.jpg, id=175, 233.31pt x 113.52pt>
 File: Pictures/systemAccurateImprecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemAccurateImprecise.jpg>
 Package pdftex.def Info: Pictures/systemAccurateImprecise.jpg used on input lin
-e 73.
+e 72.
 (pdftex.def)             Requested size: 188.21709pt x 91.58347pt.
  [9 <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/bodyPlanes.jpg> <E:/Mastert
-hesis/Thesis/MasterthesisRW/Pictures/bodyDirectionalReferences.jpg> <E:/Mastert
-hesis/Thesis/MasterthesisRW/Pictures/systemInaccurateImprecise.jpg> <E:/Mastert
-hesis/Thesis/MasterthesisRW/Pictures/systemInaccuratePrecise.jpg>]) [10 <E:/Mas
+hesis/Thesis/MasterthesisRW/Pictures/bodyDirectionalReferences.jpg>]) [10 <E:/M
+asterthesis/Thesis/MasterthesisRW/Pictures/systemInaccurateImprecise.jpg> <E:/M
+asterthesis/Thesis/MasterthesisRW/Pictures/systemInaccuratePrecise.jpg> <E:/Mas
 terthesis/Thesis/MasterthesisRW/Pictures/systemAccuratePrecise.jpg> <E:/Mastert
 hesis/Thesis/MasterthesisRW/Pictures/systemAccurateImprecise.jpg>] [11]
 (E:\Masterthesis\Thesis\MasterthesisRW\section3.tex
-<Pictures/mentalModelConstruction.jpg, id=268, 372.68648pt x 262.15588pt>
+<Pictures/mentalModelConstruction.jpg, id=215, 372.68648pt x 262.15588pt>
 File: Pictures/mentalModelConstruction.jpg Graphic file (type jpg)
 
 <use Pictures/mentalModelConstruction.jpg>
@@ -1049,14 +1053,14 @@ e 15.
 (pdftex.def)             Requested size: 307.29092pt x 216.16925pt.
  [12] [13 <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/mentalModelConstructi
 on.jpg>] [14] [15]
-<Pictures/informationUISurroundingObjects.jpg, id=318, 252.945pt x 221.81331pt>
+<Pictures/informationUISurroundingObjects.jpg, id=268, 252.945pt x 221.81331pt>
 File: Pictures/informationUISurroundingObjects.jpg Graphic file (type jpg)
 <use Pictures/informationUISurroundingObjects.jpg>
 Package pdftex.def Info: Pictures/informationUISurroundingObjects.jpg used on i
 nput line 64.
 (pdftex.def)             Requested size: 188.21709pt x 165.05312pt.
 
-<Pictures/informationUIFeedbackSummary.jpg, id=321, 254.05684pt x 221.81331pt>
+<Pictures/informationUIFeedbackSummary.jpg, id=269, 254.05684pt x 221.81331pt>
 File: Pictures/informationUIFeedbackSummary.jpg Graphic file (type jpg)
 
 <use Pictures/informationUIFeedbackSummary.jpg>
@@ -1064,84 +1068,84 @@ Package pdftex.def Info: Pictures/informationUIFeedbackSummary.jpg used on inpu
 t line 71.
 (pdftex.def)             Requested size: 188.21709pt x 164.33557pt.
 
-<Pictures/avatar3DModel.jpg, id=327, 387.16072pt x 183.25607pt>
+<Pictures/avatar3DModel.jpg, id=275, 387.16072pt x 183.25607pt>
 File: Pictures/avatar3DModel.jpg Graphic file (type jpg)
 
 <use Pictures/avatar3DModel.jpg>
-Package pdftex.def Info: Pictures/avatar3DModel.jpg used on input line 83.
+Package pdftex.def Info: Pictures/avatar3DModel.jpg used on input line 85.
 (pdftex.def)             Requested size: 188.21709pt x 89.08879pt.
 
-<Pictures/avatarUser.jpg, id=330, 241.78288pt x 101.9726pt>
+<Pictures/avatarUser.jpg, id=278, 241.78288pt x 101.9726pt>
 File: Pictures/avatarUser.jpg Graphic file (type jpg)
 
 <use Pictures/avatarUser.jpg>
-Package pdftex.def Info: Pictures/avatarUser.jpg used on input line 90.
+Package pdftex.def Info: Pictures/avatarUser.jpg used on input line 92.
 (pdftex.def)             Requested size: 188.21709pt x 79.38113pt.
  [16 <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/informationUISurroundingOb
 jects.jpg> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/informationUIFeedbac
 kSummary.jpg>]
-<Pictures/gameInstruction.jpg, id=344, 154.05849pt x 79.3364pt>
+<Pictures/gameInstruction.jpg, id=292, 154.05849pt x 79.3364pt>
 File: Pictures/gameInstruction.jpg Graphic file (type jpg)
 
 <use Pictures/gameInstruction.jpg>
-Package pdftex.def Info: Pictures/gameInstruction.jpg used on input line 102.
+Package pdftex.def Info: Pictures/gameInstruction.jpg used on input line 104.
 (pdftex.def)             Requested size: 188.21709pt x 96.93307pt.
 
-<Pictures/gameHighlighting.jpg, id=347, 154.67131pt x 79.36795pt>
+<Pictures/gameHighlighting.jpg, id=293, 154.67131pt x 79.36795pt>
 File: Pictures/gameHighlighting.jpg Graphic file (type jpg)
 
 <use Pictures/gameHighlighting.jpg>
-Package pdftex.def Info: Pictures/gameHighlighting.jpg used on input line 109.
+Package pdftex.def Info: Pictures/gameHighlighting.jpg used on input line 111.
 (pdftex.def)             Requested size: 188.21709pt x 96.59015pt.
 
-<Pictures/hciGuidelinesDynamicGesture.png, id=352, 735.49782pt x 239.39438pt>
+<Pictures/hciGuidelinesDynamicGesture.png, id=299, 735.49782pt x 239.39438pt>
 File: Pictures/hciGuidelinesDynamicGesture.png Graphic file (type png)
 
 <use Pictures/hciGuidelinesDynamicGesture.png>
 Package pdftex.def Info: Pictures/hciGuidelinesDynamicGesture.png used on input
- line 121.
-(pdftex.def)             Requested size: 192.05609pt x 62.51137pt.
- [17 <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/avatar3DModel.jpg> <E:/Mas
-terthesis/Thesis/MasterthesisRW/Pictures/avatarUser.jpg> <E:/Masterthesis/Thesi
-s/MasterthesisRW/Pictures/gameInstruction.jpg> <E:/Masterthesis/Thesis/Masterth
-esisRW/Pictures/gameHighlighting.jpg> <E:/Masterthesis/Thesis/MasterthesisRW/Pi
-ctures/hciGuidelinesDynamicGesture.png>]
-<Pictures/hciGuidelinesTeachingMethods.png, id=364, 424.58624pt x 285.31593pt>
+ line 126.
+(pdftex.def)             Requested size: 172.8493pt x 56.25768pt.
+
+<Pictures/hciGuidelinesTeachingMethods.png, id=301, 424.58624pt x 285.31593pt>
 File: Pictures/hciGuidelinesTeachingMethods.png Graphic file (type png)
 
 <use Pictures/hciGuidelinesTeachingMethods.png>
 Package pdftex.def Info: Pictures/hciGuidelinesTeachingMethods.png used on inpu
 t line 133.
-(pdftex.def)             Requested size: 153.64253pt x 103.24478pt.
-
-<Pictures/hciGuidelinesFeedbackCursor.png, id=368, 443.40656pt x 369.63094pt>
+(pdftex.def)             Requested size: 138.27997pt x 92.92249pt.
+ [17 <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/avatar3DModel.jpg> <E:/Mas
+terthesis/Thesis/MasterthesisRW/Pictures/avatarUser.jpg> <E:/Masterthesis/Thesi
+s/MasterthesisRW/Pictures/gameInstruction.jpg> <E:/Masterthesis/Thesis/Masterth
+esisRW/Pictures/gameHighlighting.jpg>]
+<Pictures/hciGuidelinesFeedbackCursor.png, id=311, 443.40656pt x 369.63094pt>
 File: Pictures/hciGuidelinesFeedbackCursor.png Graphic file (type png)
 
 <use Pictures/hciGuidelinesFeedbackCursor.png>
 Package pdftex.def Info: Pictures/hciGuidelinesFeedbackCursor.png used on input
- line 145.
+ line 147.
 (pdftex.def)             Requested size: 86.42465pt x 72.04108pt.
 
-<Pictures/hciGuidelinesFeedbackControl.png, id=369, 223.58531pt x 93.34875pt>
+<Pictures/hciGuidelinesFeedbackControl.png, id=312, 223.58531pt x 93.34875pt>
 File: Pictures/hciGuidelinesFeedbackControl.png Graphic file (type png)
 
 <use Pictures/hciGuidelinesFeedbackControl.png>
 Package pdftex.def Info: Pictures/hciGuidelinesFeedbackControl.png used on inpu
-t line 152.
+t line 154.
 (pdftex.def)             Requested size: 86.42465pt x 36.08394pt.
 
-<Pictures/hciGuidelinesProgressIndicator.png, id=373, 245.41687pt x 289.83281pt
+<Pictures/hciGuidelinesProgressIndicator.png, id=316, 245.41687pt x 289.83281pt
 >
 File: Pictures/hciGuidelinesProgressIndicator.png Graphic file (type png)
  <use Pictures/hciGuidelinesProgressIndicator.png>
 Package pdftex.def Info: Pictures/hciGuidelinesProgressIndicator.png used on in
-put line 166.
-(pdftex.def)             Requested size: 115.23482pt x 136.08876pt.
-) [18 <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesTeachingMeth
-ods.png> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesFeedbackC
-ursor.png> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesFeedbac
-kControl.png> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesProg
-ressIndicator.png>]
+put line 168.
+(pdftex.def)             Requested size: 103.71193pt x 122.48076pt.
+) [18 <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesDynamicGestu
+re.png> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesTeachingMe
+thods.png> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesFeedbac
+kCursor.png> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesFeedb
+ackControl.png> <E:/Masterthesis/Thesis/MasterthesisRW/Pictures/hciGuidelinesPr
+ogressIndicator.png>]
 (E:\Masterthesis\Thesis\MasterthesisRW\relatedWork.bbl [19
 
 ]
@@ -1157,25 +1161,29 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `relatedWork.out' has not changed.
-(rerunfilecheck)             Checksum: 9C4DC56C46ED293C00FD6F985E3C4CCA;1125.
+(rerunfilecheck)             Checksum: 2F0F741C9B65FDF4BB92D9DAE79A2270;370.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 11971 strings out of 493921
- 180801 string characters out of 3148874
- 300090 words of memory out of 3000000
- 14670 multiletter control sequences out of 15000+200000
+ 12010 strings out of 493921
+ 181806 string characters out of 3148874
+ 301489 words of memory out of 3000000
+ 14707 multiletter control sequences out of 15000+200000
  48190 words of font info for 234 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,11n,43p,1567b,536s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,43p,1567b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Programme/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<E:/Programme/MiKTeX
  2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><E:/Programme/MiKTeX 2.9/fonts/type1/u
 rw/palatino/uplb8a.pfb><E:/Programme/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
 .pfb><E:/Programme/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb><E:/Programm
 e/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on relatedWork.pdf (25 pages, 1569246 bytes).
+Output written on relatedWork.pdf (25 pages, 1562531 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 22781 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 22709 words of extra memory for PDF output out of 24883 (max. 10000000)
 

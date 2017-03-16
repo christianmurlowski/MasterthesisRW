@@ -1,16 +1,16 @@
 \thispagestyle {plain}
 \vspace {-.45cm}
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
-\contentsline {section}{\numberline {2}Slackline specific training and effects to the human body}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Exercises during slackline training}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Slackline specific training effects and application scenarios}{5}{subsection.2.2}
-\contentsline {section}{\numberline {3}Appropriate tracking device}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Comparison of tracking technologies}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Accuracy of the Microsoft Kinect}{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Implementation in balance training scenarios}{10}{subsection.3.3}
-\contentsline {section}{\numberline {4}Feedback and interaction methods for the user}{12}{section.4}
-\contentsline {subsection}{\numberline {4.1}Restricting cognitive load}{12}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Motivating factors for skill acquisition}{13}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Approaches and techniques for providing feedback}{14}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}User interface}{16}{subsection.4.4}
-\contentsline {section}{Bibliography}{19}{section*.15}
+\contentsline {section}{\numberline {1}Related Work}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Slackline specific training and effects to the human body}{3}{subsection.1.1}
+\contentsline {subsubsection}{Exercises during slackline training}{3}{subsubsection*.1}
+\contentsline {subsubsection}{Slackline specific training effects and application scenarios}{5}{subsubsection*.5}
+\contentsline {subsection}{\numberline {1.2}Technical foundation}{7}{subsection.1.2}
+\contentsline {subsubsection}{Comparison of tracking technologies}{7}{subsubsection*.6}
+\contentsline {subsubsection}{Accuracy of the Microsoft Kinect}{8}{subsubsection*.7}
+\contentsline {subsubsection}{Implementation in balance training scenarios}{9}{subsubsection*.10}
+\contentsline {subsection}{\numberline {1.3}Feedback and interaction methods for the user}{12}{subsection.1.3}
+\contentsline {subsubsection}{Restricting cognitive load}{12}{subsubsection*.11}
+\contentsline {subsubsection}{Motivating factors for skill acquisition}{13}{subsubsection*.13}
+\contentsline {subsubsection}{Approaches and techniques for providing feedback}{14}{subsubsection*.14}
+\contentsline {subsubsection}{User interface}{16}{subsubsection*.15}
+\contentsline {section}{Bibliography}{19}{section*.22}
