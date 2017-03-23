@@ -3,6 +3,7 @@
 *.log
 *.toc
 *.dvi
+*.out
 
 # PDF output
 #*.pdf
